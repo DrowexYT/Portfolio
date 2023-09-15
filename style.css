@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topnav {
+    width: 98%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: -20px;
+  }
+  
+  header {
+    background: linear-gradient(45deg, #006064, #004D40);
+    height: 120px;
+    position: relative;
+  }
+  
+  header::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .jmeno {
+    font-size: 25;
+  }
